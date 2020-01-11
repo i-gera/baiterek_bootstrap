@@ -1,0 +1,430 @@
+/*основные стили*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Playfair Display';
+	font-size: 16px;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*Повторяющиеся элементы*/
+.line{
+	width: 60px;
+	height: 3px;
+	background-color: #EEA292;
+}
+
+.top h4{
+	color: #333333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	font-weight: 400;
+	padding-top: 90px;
+}
+
+.top h3{
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 22px;
+}
+
+.top .line{	
+	margin: 38px auto 45px auto;
+}
+
+.top .text{
+	
+}
+.top .text p{
+	color: #999999;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;	
+	max-width: 954px;
+	text-align: center;
+	margin: 0 auto;
+	font-style: italic;
+}
+
+/*первая страница*/
+.header{
+
+}
+
+.header-top-bg{
+	/*background-color: #3cb1ba;*/
+}
+
+.header-top{	
+	/*display: flex;
+	justify-content: space-between;
+	align-items: center;*/
+	padding-top: 28px;
+	padding-bottom: 28px;
+	text-align: center;
+}
+
+.logo img{
+	max-width: 100%;
+	padding-bottom: 20px;
+}
+
+.nav a{
+	color: #333333;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 100px;
+	font-weight: 400;
+}
+
+.nav a:hover {
+	color: #EEA292;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #EEA292;
+}
+
+.nav .menu-icon{
+	display: none;
+}
+
+.header-content-bg{
+	background-color: #f5f0f2;
+	padding-bottom: 70px;
+}
+
+.header-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+}
+
+/*.main1{
+	position: relative;
+}*/
+
+.main-img img{
+	position: relative;
+	top: 30px;
+	left: 100px;
+	max-width: 55%;
+	max-height: 55%;
+	z-index: 3;
+	border-radius: 0.5%;
+}
+
+.rect1{
+	width: 700px;
+	height: 400px;
+	background-color: #EEA292;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	z-index: 2;
+	border-radius: 0.5%;
+}
+
+.uzor{
+	position: absolute;
+	top: 400px;
+	left: 40px;
+	z-index: 1;
+	width: 700px;
+	height: 400px;
+	background-color: #000;
+	opacity: 0.5;
+	border-radius: 0.5%;
+}
+
+.main2{
+	/*padding-top: 40px;
+	margin-right: 200px;*/
+}
+
+.main2-row1{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 50px;
+}
+
+.frame1{
+	border: 1px solid black;
+	padding: 40px;
+	text-align: center;
+	/*margin: 40px 200px 30px auto;*/
+}
+
+.frame2{
+	border: 1px solid black;
+	padding: 30px;
+}
+
+.frame3{
+	border: 1px solid black;
+	padding: 40px;
+	text-align: center;
+	/*margin: 30px auto 40px 200px;*/
+	margin-left: 50px;
+}
+
+.frame4{
+	border: 1px solid black;
+	padding: 30px;
+}
+
+.poloska{
+	position: relative;
+	width: 80px;
+	height: 120px;
+	background-color: gray;
+	/*opacity: 0.5;*/
+	z-index: 4;
+	text-align: center;
+	margin-left: 50px;
+	border-radius: 2%;
+}
+
+.polosa{
+	position: absolute;
+	width: 10px;
+	height: 60px;
+	background-color: #EEA292;
+	z-index: 5;
+	bottom: 0;
+	left: 5px;
+}
+
+.poloska2{
+	position: relative;
+	width: 80px;
+	height: 120px;
+	background-color: #EEA292;	
+	z-index: 4;
+	text-align: center;	
+	border-radius: 2%;
+}
+
+.polosa2{
+	position: absolute;
+	width: 10px;
+	height: 60px;
+	background-color: gray;
+	/*opacity: 0.5;*/
+	z-index: 5;
+	top: 0;
+	right: 5px;
+}
+
+.main2-row2{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 60px;
+}
+
+.women-collection{
+	margin: 0 auto;
+	text-align: center;	
+	background-color: #f5f0f2;
+}
+
+.women-overlay{
+	background: url(..//img/odu.png) no-repeat right;
+}
+
+.women-collection-top{
+	text-align: center;	
+	opacity: 1;
+}
+
+.women-collection-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 75px auto 50px auto;
+	opacity: 1;
+}
+
+.women-col{
+	max-width: 380px;
+	max-height: 470px;
+}
+
+.women-col img{
+	width: 80%;
+	height: 80%;
+}
+
+.women-collection-bottom{
+	background-color: #fff;
+	text-align: center;
+}
+
+.bottom-blok{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.words{ 
+	margin-left: 30px;
+	text-align: left;
+}
+.words .text{
+	color: #999999;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	font-style: italic;
+	margin-right: 75px;
+	text-align: left;
+	max-width: 767px;
+}
+
+.auth{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 10px;
+}
+
+.auth .auth-name{
+	color: #333333;
+	font-family: "Kaushan Script", cursive;
+	font-size: 24px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+.man{
+	margin-left: 45px;
+}
+
+.men-collection{
+	margin: 0 auto;
+	text-align: center;	
+	background: url(..//img/mountain.png) center;
+	background-repeat: repeat-y;
+}
+
+.men-overlay{
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+.men-collection-top{
+	text-align: center;	
+}
+
+.men-collection-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 75px auto 50px auto;
+}
+
+.men-col{
+	max-width: 380px;
+	max-height: 470px;
+}
+
+.men-col img{
+	width: 80%;
+	height: 80%;
+}
+
+.men-collection-bottom{
+	background-color: #fff;
+	text-align: center;
+}
+
+.aboutUs{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.aboutUs-top{
+	text-align: center;	
+}
+
+.aboutUs-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 100px auto 100px auto;
+}
+
+.overlay{
+	/*background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%); 
+	max-width: 100%;*/
+}
+
+.blog{
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.blog-top{
+	text-align: center;	
+}
+
+.blog-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 101px auto 110px auto;
+}
+
+@media screen and (max-width: 768px) {
+	.header-top{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.nav a{
+		display: none;
+		font-size: 28px;
+	}
+	
+	.nav a.menu-icon{
+		float: right;
+		display: inline-block;
+		color: #000;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.nav.responsive{
+		position: relative;
+	}
+	.nav.responsive a.menu-icon{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.nav.responsive a{
+		display: block;
+		text-align:left;
+	}
+
+}
