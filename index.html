@@ -7,21 +7,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Kaushan+Script|Playfair+Display|Montserrat:400,700|Righteous|Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
+		<header class="header">
 		<div class="header-top-bg">
 			<div class="container">
 			<div class="header-top">
 				<div class="logo">
 					<img src="img/logo1.png" alt="">				
 				</div>
-				<nav class="nav" id="topNav">
-					<a href="">Главная</a>
-					<a href="">О Нас</a>
-					<a href="">Коллекция</a>
-					<a href="">Блог</a>
-					<a href="">Контакты</a>
-					<a href=""><img src="img/search1.png" alt=""></a>
-					<a id="menu" href="#" class="menu-icon">&#9776;</a>
+				<nav>
+					<ul  class="nav" id="topNav">
+						<li><a href="">Главная</a></li>
+						<li><a href="">О Нас</a></li>
+						<li><a href="">Коллекция</a></li>
+						<li><a href="">Блог</a></li>
+						<li><a href="">Контакты</a></li>
+						<li class="search"><a href=""><img src="img/search1.png" alt=""></a></li>
+						<li class="menu-icon"><a href="javascript:void(0);" onclick="adaptNav()">&#9776;</a></li>
+					</ul>
 				</nav>
 			</div>
 			</div>
@@ -29,31 +31,35 @@
 		<div class="header-content-bg">			
 			<div class="container">
 				<div class="header-content">
-				<div class="main1">
-					<div class="main-img"><img src="img/DSC07038.JPG" alt=""></div>
-					<div class="rect1">					
-					</div>	
-					<div class="uzor"></div>	
-				</div>	
-				<div class="main2">
-					<div class="main2-row1">
+				<div class="main-col1">
+					<div class="gray-rect"></div>
+					<div class="orange-rect"></div>	
+					<div class="main-img">
+						<div class="slideshow-container">
+							<img src="img/DSC07038.JPG" alt="">			
+						</div>	
+					</div>						
+				</div>
+				
+				<div class="main-col2">
+					<div class="main-col2-row1">
 						<div class="frame1">
-						<div class="frame2">
+						<div class="min-frame">
 							<p class="text">САМЫЕ ЭЛЕГАНТНЫЕ И <b>КАЧЕСТВЕННЫЕ</b> ШУБЫ! ШИРОКИЙ <b>ВЫБОР</b> МОДЕЛЕЙ И РАЗМЕРОВ!</p>
 						</div>
 						</div>
-						<div class="poloska">
-							<div class="polosa">						
+						<div class="decor-gray1">
+							<div class="decor-orng1">						
 							</div>
 						</div>
 					</div>
-					<div class="main2-row2">
-						<div class="poloska2">
-							<div class="polosa2">						
+					<div class="main-col2-row2">
+						<div class="decor-orng2">
+							<div class="decor-gray2">						
 							</div>
 						</div>
-						<div class="frame3">
-							<div class="frame4">
+						<div class="frame2">
+							<div class="min-frame">
 								<p class="text">ПОКУПАЙТЕ В <b>РАССРОЧКУ</b>, ПЕРЕПЛАТА <b>O%</b>. А ТАКЖЕ <b>СКИДКИ</b> НА ВСЮ ЛЕТНЮЮ КОЛЛЕКЦИЮ!</p>
 							</div>
 						</div>
