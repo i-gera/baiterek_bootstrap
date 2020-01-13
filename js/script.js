@@ -1,12 +1,7 @@
-let menu = document.getElementById('topNav');
-let btn = document.getElementById('menu')
-
-btn.onclick = function(){
-	if (menu.ClassList.contains('nav')){
-		menu.ClassList.add('responsive');
-	}
-	else{
-		menu.ClassList.remove('responsive')
+function adaptNav(){
+	var topNav = document.getElementById('topNav');
+	if (topNav.classList.contains('nav')){
+		topNav.classList.add('responsive');
 	}
 }
 
