@@ -194,6 +194,8 @@ img{
 	top: 230px;
 	left: 250px;	
 	z-index: 3;	
+	max-width: 29%;
+	max-height: 29%;
 }
 
 .slideshow-container img{
@@ -214,9 +216,7 @@ img{
 	top: 280px;
 	left: 40px;
 	}
-	.main-img img{
-	max-width: 80%;
-	max-height: 80%;
+	.main-img{
 	top: 230px;
 	left: 100px;
 	}
@@ -239,9 +239,7 @@ img{
 	top: 280px;
 	left: 40px;
 	}
-	.main-img img{
-	max-width: 70%;
-	max-height: 70%;
+	.main-img{
 	top: 230px;
 	left: 100px;
 	}	
@@ -264,9 +262,7 @@ img{
 	top: 280px;
 	left: 40px;
 	}
-	.main-img img{
-	max-width: 60%;
-	max-height: 60%;
+	.main-img{
 	top: 230px;
 	left: 100px;
 	}	
@@ -436,6 +432,32 @@ img{
 	}
 }
 
+.aboutUs{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.aboutUs-top{
+	text-align: center;	
+}
+
+.aboutUs-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 100px auto 100px auto;
+}
+
+.about-col-td{
+	width: 200%;
+	height: 200%;
+}
+
+.about-col-text{
+	text-align: left;
+	padding-left: 30px;
+}
+
 .women-collection{
 	margin: 0 auto;
 	text-align: center;	
@@ -555,22 +577,6 @@ img{
 	text-align: center;
 }
 
-.aboutUs{
-	margin: 0 auto;
-	text-align: center;
-}
-
-.aboutUs-top{
-	text-align: center;	
-}
-
-.aboutUs-content{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 100px auto 100px auto;
-}
-
 .overlay{
 	/*background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%); 
 	max-width: 100%;*/
@@ -579,6 +585,7 @@ img{
 .blog{
 	margin: 0 auto;
 	text-align: center;	
+	background-color: #f5f0f2;
 }
 
 .blog-top{
@@ -590,39 +597,4 @@ img{
 	justify-content: space-between;
 	align-items: center;
 	margin: 101px auto 110px auto;
-}
-
-@media screen and (max-width: 768px) {
-	.header-top{
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-start;
-	}
-
-	.nav a{
-		display: none;
-		font-size: 28px;
-	}
-	
-	.nav a.menu-icon{
-		float: right;
-		display: inline-block;
-		color: #000;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.nav.responsive{
-		position: relative;
-	}
-	.nav.responsive a.menu-icon{
-		position: absolute;
-		top: 0;
-		right: 0;
-	}
-	.nav.responsive a{
-		display: block;
-		text-align:left;
-	}
-
 }
