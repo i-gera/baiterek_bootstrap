@@ -479,9 +479,9 @@ img{
 
 .about-col-text p{
 	color: white;
-	padding: 80px 50px 50px 100px;
+	padding: 100px 50px 80px 100px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 15px;
 	border-bottom: solid 1px white;
 	border-radius: 80%;
 }
@@ -501,7 +501,7 @@ img{
 .about-col-text2 p.text1{
 	color: #222;
 	margin-top: 50px;
-	padding: 50px 70px 0 280px;
+	padding: 80px 70px 0 280px;
 	text-align:center;
 	font-size: 16px;
 	border-top: solid 1px #222;
@@ -510,7 +510,7 @@ img{
 
 .about-col-text2 p.text2{
 	color: #222;
-	padding: 20px 70px 100px 320px;
+	padding: 0px 70px 100px 320px;
 	text-align:left;
 	font-size: 16px;
 }
