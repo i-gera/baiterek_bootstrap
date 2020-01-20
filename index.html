@@ -7,7 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Kaushan+Script|Playfair+Display|Montserrat:400,700|Righteous|Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-		<header class="header">
+	    <!-- <button id="upbtn" onclick="upBtn()">UP</button> -->
+		<header class="header" id="main">
 		<div class="header-top-bg">
 			<div class="container">
 			<div class="header-top">
@@ -16,11 +17,11 @@
 				</div>
 				<nav>
 					<ul  class="nav" id="topNav">
-						<li><a href="">Главная</a></li>
-						<li><a href="">О Нас</a></li>
-						<li><a href="">Коллекция</a></li>
-						<li><a href="">Блог</a></li>
-						<li><a href="">Контакты</a></li>
+						<li><a href="#main">Главная</a></li>
+						<li><a href="#aboutUs">О Нас</a></li>
+						<li><a href="#womenCollection">Коллекция</a></li>
+						<li><a href="#blog">Блог</a></li>
+						<li><a href="#contacts">Контакты</a></li>
 						<li class="search"><a href=""><img src="img/search1.png" alt=""></a></li>
 						<li class="menu-icon"><a href="javascript:void(0);" onclick="adaptNav()">&#9776;</a></li>
 					</ul>
@@ -36,7 +37,26 @@
 					<div class="orange-rect"></div>	
 					<div class="main-img">
 						<div class="slideshow-container">
-							<img src="img/DSC07038.JPG" alt="">			
+							<div class="slides fade">
+								<img src="img/main1.jpg" alt="">	
+								<div class="slide-text">Шубы, дубленки, куртки</div>
+							</div>
+							<div class="slides fade">
+								<img src="img/main2.jpg" alt="">	
+								<div class="slide-text">Одежда для мужчин</div>
+							</div>
+							<div class="slides fade">
+								<img src="img/main3.jpg" alt="">	
+								<div class="slide-text">Одежда для женщин</div>
+							</div>	
+							<a class="prev" onclick="plusSlides(-1)">&#10094</a>	
+							<a class="next" onclick="plusSlides(1)">&#10095</a>	
+							<!-- <br> -->
+							<div class="dots">
+								<span class="dot" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
+							</div>						
 						</div>	
 					</div>						
 				</div>
@@ -69,8 +89,7 @@
 			</div>
 		</div>				
 	</header>
-
-	<div class="aboutUs">
+	<div class="aboutUs" id="aboutUs">
 		<div class="overlay">
 			<div class="container">
 			<div class="aboutUs-top top">
@@ -80,7 +99,9 @@
 				<!-- <div class="text"><p>Торгово-выставочный дом "Байтерек"</p></div> -->
 			</div>
 			<div class="aboutUs-content">
-			<div class="about-col-td"><img src="img/td.png" alt=""></div>
+			<div class="about-col-td">
+				<img src="img/TD.png" alt="">
+			</div>
 			<div class="about-col-text">
 				<p class="text">Торговый дом <b>"Байтерек"</b> является  торговой платформой по реализации эксклюзивных изделий в Казахстане. Мы предоставляем Вам возможность приобрести лучшее качество вариантов НАПРЯМУЮ от известных международных изготовителей, по прайсу, с которым никто не может конкурировать.<br> Спросите множество наших постоянных ценных гостей, которые уже купили и стали нашими частыми клиентами, и теперь рекомендуют к посещению своим друзьям.</p>
 			</div>
@@ -96,7 +117,7 @@
 		</div>		
 	</div>
 
-	<div class="women-collection">
+	<div class="women-collection" id="womenCollection">
 		<div class="women-overlay">
 			<div class="container">
 			<div class="women-collection-top top">
@@ -107,6 +128,7 @@
 			<div class="women-collection-content">
 			<div class="women-col">
 				<img src="img/women/women_winter.jpg" alt="">
+				<!-- <div class="gradient"></div> -->
 				<h6>Зимняя коллекция</h6>
 			</div>
 			<div class="women-col">
@@ -137,7 +159,7 @@
 			</div>	
 		</div>		
 	</div>		
-	<div class="men-collection">
+	<div class="men-collection" id="menCollection">
 		<div class="men-overlay">
 		<div class="container">
 		<div class="men-collection-top top">
@@ -151,7 +173,7 @@
 			<h6>Зимняя коллекция</h6>
 		</div>	
 		<div class="men-col">
-			<img src="img/men/man1.jpg" alt="">
+			<img src="img/men/man11.jpg" alt="">
 			<h6>Весна-Осень</h6>
 		</div>	
 		<div class="men-col">
@@ -179,7 +201,7 @@
 			</div>	
 	</div>				
 
-	<div class="blog">
+	<div class="blog" id="blog">
 		<div class="container">
 		<div class="blog-top top">
 				<h4>УЗНАЙ</h4>
@@ -203,6 +225,23 @@
 			</div>
 		</div>
 		<div class="blog-bottom">
+			
+		</div>
+	</div>	
+
+	<div class="contacts" id="contacts">
+		<div class="container">
+		<div class="contacts-top top">
+				<h4>НАШ АДРЕС</h4>
+				<h3>МЫ ВСЕГДА РАДЫ ВАС ВИДЕТЬ!</h3>
+				<div class="line"></div>
+				<!-- <div class="text"><p>Полезные советы и новости fashion индустрии. Читайте у нас!</p></div> -->
+		</div>
+		</div>
+		<div class="contacts-content">
+
+		</div>
+		<div class="contacts-bottom">
 			
 		</div>
 	</div>	
