@@ -691,27 +691,34 @@ h6{
 
 .bottom-blok{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	text-align: center;
-	align-items: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	align-items: flex-start;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .words{ 
-	margin-left: 30px;
+	margin-left: 10px;
 	text-align: left;
 }
 .words .text{
 	color: #999999;
 	font-family: "Roboto", sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
-	line-height: 36px;
 	font-style: italic;
-	margin-right: 75px;
+	margin-right: 20px;
 	text-align: left;
 	max-width: 767px;
+	padding-top: 20px;
+}
+
+.sign{
+	width: 40px;
+	height: 40px;
+	padding-top: 20px;
+	margin-left: 30px;
 }
 
 .auth{
@@ -729,8 +736,10 @@ h6{
 	margin-left: 10px;
 }
 
-.man{
+.comment{
 	margin-left: 45px;
+	max-width: 140px;
+	max-height: 140px;
 }
 
 .men-collection{
