@@ -5,12 +5,14 @@
 	<title>ТД "Байтерек"</title>
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="lib/fancybox/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Kaushan+Script|Playfair+Display|Montserrat:400,700|Righteous|Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	    <!-- <button id="upbtn" onclick="upBtn()">UP</button> -->
-		<header class="header" id="main">
+	<!-- <button id="upbtn" onclick="upBtn()">UP</button> -->
+	<header class="header" id="main">
 		<div class="header-top-bg">
 			<div class="container">
 			<div class="header-top">
@@ -146,8 +148,10 @@
 			</div>	
 			<div class="women-collection-content">
 			<div class="women-col">
-				<img src="img/women/women_winter.jpg" alt="">
-				<div class="gradient"></div>
+				<a data-fancybox="gallery" href="img/gallery/women/winter/winter1.jpg">
+					<img src="img/women/women_winter.jpg" alt="">
+				</a>				
+				<!-- <div class="gradient"></div> -->
 				<h6>Зимняя коллекция</h6>
 			</div>
 			<div class="women-col">
@@ -291,6 +295,7 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>
+    <script src="lib/fancybox/jquery.fancybox.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

@@ -552,7 +552,7 @@ h6{
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	padding-top: 45px;
+	/*padding-top: 45px;*/
 }
 
 .aboutUs-text1{
@@ -610,7 +610,7 @@ h6{
 
 .aboutUs-bottom{
 	background-color: rgba(255, 255, 255, 0.85);
-	margin: 20px auto;
+	margin: 0 auto;
 }
 
 .info-tablo{	
@@ -649,7 +649,7 @@ h6{
 }
 
 .women-collection{
-	margin: 600px auto 0 auto;
+	margin: 0 auto;
 	text-align: center;	
 	background-color: #f5f0f2;
 }
