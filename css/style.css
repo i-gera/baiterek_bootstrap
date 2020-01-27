@@ -537,6 +537,7 @@ h6{
 
 .aboutUs-top{
 	text-align: center;	
+	margin-top: 50px;
 }
 
 .aboutUs-content{
@@ -551,7 +552,7 @@ h6{
 .aboutUs-row{
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: top;
 	/*padding-top: 45px;*/
 }
 
@@ -611,41 +612,7 @@ h6{
 .aboutUs-bottom{
 	background-color: rgba(255, 255, 255, 0.85);
 	margin: 0 auto;
-}
-
-.info-tablo{	
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.info-box{
-	border-left: 1px solid #f1f1f1;
-	text-align: center;
-	width: 240px;
-	padding-top: 90px;
-	padding-bottom: 90px;
-}
-
-.info-box:last-child {
-	border-right: 1px solid #f1f1f1;
-}
-
-.info-box .number{
-	color: #EEA292;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 72px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-.info-box .name{
-	color: #222;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	text-transform: uppercase;
-	padding-top: 30px;
+	margin-top: 50px;
 }
 
 .women-collection{
@@ -732,6 +699,10 @@ h6{
 	text-align: left;
 	max-width: 767px;
 	padding-top: 20px;
+}
+
+.arrows{
+	margin: 50px;
 }
 
 .sign{
@@ -910,6 +881,7 @@ h6{
 	width: 50%;
 	height: 50%;
 	text-align: right;
+	margin-left: 50%;
 }
 
 .icons8{
@@ -923,6 +895,16 @@ h6{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.social-net{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.net-icon:not(:first-child) {
+	margin-left: 20px;
 }
 
 .contact-info {
@@ -950,4 +932,21 @@ h6{
 	margin-top: 10px;
 	border: none;
 	color: #f5f0f2;
+}
+
+.footer{
+	background-color: gray;
+}
+
+.copy{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copy p{
+	padding: 20px;
+	color: white;
+	font-family: "Montserrat";
+	font-size: 14px;
 }
