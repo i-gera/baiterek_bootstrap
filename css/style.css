@@ -784,6 +784,7 @@ h6{
 	background: url(..//img/laptop3.jpg);
 	background-size: cover;
 	background-position: center;
+	background-color: #f5f0f2;
 }
 
 .blog-top{
@@ -878,10 +879,9 @@ h6{
 }
 
 .td{
-	width: 50%;
-	height: 50%;
 	text-align: right;
-	margin-left: 50%;
+	border: 1px solid #010101;
+	padding: 5px;
 }
 
 .icons8{
@@ -932,10 +932,11 @@ h6{
 	margin-top: 10px;
 	border: none;
 	color: #f5f0f2;
+	font-weight: 700;
 }
 
 .footer{
-	background-color: gray;
+	background-color: #010101;
 }
 
 .copy{
