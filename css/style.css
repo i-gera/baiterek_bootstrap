@@ -903,22 +903,38 @@ h6{
 	align-items: center;
 }
 
+.net-icon:first-child {
+	margin-left: 10px;
+}
+
 .net-icon:not(:first-child) {
 	margin-left: 20px;
+}
+
+.net-icon a{
+	text-decoration: none;
+	color: black;
+	font-family: "Font Awesome";
+	font-size: 40px;
+	font-weight: 400;
 }
 
 .contact-info {
 	text-align: left;
 	font-family: "Montserrat";
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 16px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 20px;
+	margin-left: 10px;
 }
 
 .form input{
 	width:100%;
 	height: 200px;
-	border-bottom: 1px solid #000;
+	border: 1px solid #000;
 	margin-top: 20px;
 	text-align: left;
 	vertical-align: top;
@@ -945,9 +961,14 @@ h6{
 	align-items: center;
 }
 
+.copy a{
+	text-decoration: none;
+}
+
 .copy p{
 	padding: 20px;
 	color: white;
 	font-family: "Montserrat";
 	font-size: 14px;
 }
+
