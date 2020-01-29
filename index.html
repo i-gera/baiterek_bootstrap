@@ -119,7 +119,9 @@
 					<div class="img-box">
 						<div class="aboutUs-rect1">
 					</div>
-					<img src="img/about.jpg" alt="">
+						<a data-fancybox="gallery" href="img/about.jpg">
+							<img src="img/about.jpg" alt="">
+						</a>	
 					</div>
 				</div>
 			</div>
@@ -153,23 +155,67 @@
 				<div class="line"></div>
 			</div>	
 			<div class="women-collection-content">
-			<div class="women-col">
-				<a data-fancybox="gallery" href="img/gallery/women/winter/winter1.jpg">
-					<img src="img/women/women_winter.jpg" alt="">
-				</a>				
-				<!-- <div class="gradient"></div> -->
+			
+			<div class="women-page">
+				<div class="women-col">
+				<img src="img/women/women_winter.jpg" alt="">				
+				<div class="gradient1"></div>
 				<h6>Зимняя коллекция</h6>
+				</div>
+				<div class="women-col">
+					<img src="img/women/autumn_women.jpg" alt="">
+					<div class="gradient2"></div>
+					<h6>Весна-Осень</h6>
+				</div>
+				<div class="women-col">
+					<img src="img/women/women_summer1.jpg" alt="">
+					<div class="gradient3"></div>
+					<h6>Летняя коллекция</h6>
+				</div>
 			</div>
-			<div class="women-col">
-				<img src="img/women/autumn_women.jpg" alt="">
-				<div class="gradient"></div>
-				<h6>Весна-Осень</h6>
+
+			<div id="womenWinter" class="galleryWindow1">
+
+			    <!-- Заголовок модального окна -->
+			    <h2>Простое jQuery модальное окно</h2>
+
+			    <!-- кнопка закрытия окна определяется как класс close -->
+			    <button class="close">close</button>
+
+			    <div class="content">
+			        <p><span>wimter</span></p>
+			    </div>
+
 			</div>
-			<div class="women-col">
-				<img src="img/women/women_summer1.jpg" alt="">
-				<div class="gradient"></div>
-				<h6>Летняя коллекция</h6>
+
+			<div id="womenAutumn" class="galleryWindow2">
+
+			    <!-- Заголовок модального окна -->
+			    <h2>Простое jQuery модальное окно</h2>
+
+			    <!-- кнопка закрытия окна определяется как класс close -->
+			    <button class="close">close</button>
+
+			    <div class="content">
+			        <p><span>wimter</span></p>
+			    </div>
+
 			</div>
+
+			<div id="womenSummer" class="galleryWindow3">
+
+			    <!-- Заголовок модального окна -->
+			    <h2>Простое jQuery модальное окно</h2>
+
+			    <!-- кнопка закрытия окна определяется как класс close -->
+			    <button class="close">close</button>
+
+			    <div class="content">
+			        <p><span>wimter</span></p>
+			    </div>
+
+			</div>
+
 			</div>
 			</div>
 		</div>
@@ -198,21 +244,60 @@
 				<div class="line"></div>
 		</div>
 		<div class="men-collection-content">	
-		<div class="men-col">
+		<div class="men-page">
+			<div class="men-col">
 			<img src="img/men/man2.jpg" alt="">
-			<div class="gradient"></div>
+			<div class="gradient4"></div>
 			<h6>Зимняя коллекция</h6>
-		</div>	
-		<div class="men-col">
-			<img src="img/men/man11.jpg" alt="">
-			<div class="gradient"></div>
-			<h6>Весна-Осень</h6>
-		</div>	
-		<div class="men-col">
-			<img src="img/men/man3.jpg" alt="">
-			<div class="gradient"></div>
-			<h6>Летняя коллекция</h6>
-		</div>	
+			</div>	
+			<div class="men-col">
+				<img src="img/men/man11.jpg" alt="">
+				<div class="gradient5"></div>
+				<h6>Весна-Осень</h6>
+			</div>	
+			<div class="men-col">
+				<img src="img/men/man3.jpg" alt="">
+				<div class="gradient6"></div>
+				<h6>Летняя коллекция</h6>
+			</div>
+		</div>
+
+		<div id="menWinter" class="galleryWindow4">
+			<!-- Заголовок модального окна -->
+			<h2>Простое jQuery модальное окно</h2>
+
+			<!-- кнопка закрытия окна определяется как класс close -->
+			<button class="close">close</button>
+
+			<div class="content">
+			    <p><span>wimter</span></p>
+			</div>
+		</div>
+
+		<div id="menAutumn" class="galleryWindow5">
+			<!-- Заголовок модального окна -->
+			<h2>Простое jQuery модальное окно</h2>
+
+			<!-- кнопка закрытия окна определяется как класс close -->
+			<button class="close">close</button>
+
+			<div class="content">
+			    <p><span>wimter</span></p>
+			</div>
+		</div>
+
+		<div id="menSummer" class="galleryWindow6">
+			<!-- Заголовок модального окна -->
+			<h2>Простое jQuery модальное окно</h2>
+
+			<!-- кнопка закрытия окна определяется как класс close -->
+			<button class="close">close</button>
+
+			<div class="content">
+			    <p><span>wimter</span></p>
+			</div>
+		</div>
+
 		</div>
 		</div>
 		</div>		
@@ -245,15 +330,59 @@
 			<div class="blog-title">
 				<p>Всегда будь в курсе, вместе С НАМИ!</p>
 			</div>
-			<div class="box1 wow rotateInDownLeft">
+			<div class="box1 open1 wow rotateInDownLeft">
 				<p>Тренды 2020 года. Не отставай от моды!</p>
 			</div>
-			<div class="box2 wow zoomInDown">
+			<div class="box2 open2 wow zoomInDown">
 				<p>Как правильно выбрать шубу и не ошибиться?</p>
 			</div>
-			<div class="box3 wow fadeInUp">
+			<div class="box3 open3 wow fadeInUp">
 				<p>Идеи модных Look-ов на каждый день!</p>
 			</div>
+
+			<div id="modal1" class="modalwindow1">
+
+			    <!-- Заголовок модального окна -->
+			    <h2>Простое jQuery модальное окно</h2>
+
+			    <!-- кнопка закрытия окна определяется как класс close -->
+			    <button class="close">close</button>
+
+			    <div class="content">
+			        <p><span>Тренды 2020 года. Не отставай от моды!</span></p>
+			    </div>
+
+			</div>
+
+			<div id="modal2" class="modalwindow2">
+
+			    <!-- Заголовок модального окна -->
+			    <h2>Простое jQuery модальное окно</h2>
+
+			    <!-- кнопка закрытия окна определяется как класс close -->
+			    <button class="close">close</button>
+
+			    <div class="content">
+			        <p><span>Как правильно выбрать шубу и не ошибиться?</span></p>
+			    </div>
+
+			</div>
+
+			<div id="modal3" class="modalwindow3">
+
+			    <!-- Заголовок модального окна -->
+			    <h2>Простое jQuery модальное окно</h2>
+
+			    <!-- кнопка закрытия окна определяется как класс close -->
+			    <button class="close">close</button>
+
+			    <div class="content">
+			        <p><span>Идеи модных Look-ов на каждый день!</span></p>
+			    </div>
+
+			</div>
+
+
 		</div>
 		</div>
 		<div class="blog-bottom">
@@ -271,14 +400,6 @@
 		<div class="contacts-content">
 			<div class="contact-box1">								
 					<div class="datas">
-						<div class="data">
-							<!-- <div class="icons8"><img src="img/icons/icons8-address.png" alt=""></div> -->
-							<!-- <div class="icons8"><img src="img/icons/icons8-phone.png" alt=""></div> -->
-							<!-- <div class="icons8"><img src="img/icons/icons8-mail.png" alt=""></div>	-->
-							<!-- <p class="contact-info-name">Адрес:</p>
-							<p class="contact-info-name">Телефон:</p>
-							<p class="contact-info-name">e-mail:</p> -->
-						</div>
 						<div class="data">							
 							<p class="contact-info"><b>Адрес:</b>   г. Актобе, Абылхаир хана 58б, ост. Космос</p>
 							<p class="contact-info"><b>Телефон:</b>   (+7) 708 119 50 91</p>
