@@ -182,7 +182,7 @@ $('body').on('click', '.close, .main-fade', function(){
   });
 
 
-// gallery window1
+// gallery window4
 $(document).ready(function(){
   $('.gradient4').on('click', function() {
      $(".galleryWindow4").show().after('<div class="main-fade">');
