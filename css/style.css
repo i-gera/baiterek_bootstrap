@@ -13,6 +13,7 @@ body{
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
 img{
 	max-width: 100%;
 }
@@ -981,11 +982,6 @@ h6{
 	font-size: 14px;
 }
 
-.close{
-  width: 100px;
-  height: 100px;
-}
-
 .blog{
 	position: relative;
 }
@@ -1042,4 +1038,27 @@ h6{
   background: #fff;
   border-radius: 2%;
   z-index: 99999;
+}
+
+.close{
+ 	border:none;
+	background: transparent;
+    text-align: right;
+    color: black;
+    font-family: "Font Awesome";
+    font-size: 30px;
+	font-weight: 400;
+}
+
+.modal-title{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.modal-container{
+	max-width: 90%;
+	margin: 0 auto;
+	text-align: center;
 }
