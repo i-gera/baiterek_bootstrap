@@ -64,3 +64,179 @@ function func1(){
 		window.scrollTo(0, 0);
 	}
 }
+
+// modal window1
+$(document).ready(function(){
+  $('.open1').on('click', function() {
+     $(".modalwindow1").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".modalwindow1").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".modalwindow1").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
+
+// modal window2
+$(document).ready(function(){
+  $('.open2').on('click', function() {
+     $(".modalwindow2").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".modalwindow2").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".modalwindow2").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
+
+// modal window3
+$(document).ready(function(){
+  $('.open3').on('click', function() {
+     $(".modalwindow3").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".modalwindow3").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".modalwindow3").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
+
+// gallery window1
+$(document).ready(function(){
+  $('.gradient1').on('click', function() {
+     $(".galleryWindow1").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".galleryWindow1").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".galleryWindow1").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
+
+
+// gallery window2
+$(document).ready(function(){
+  $('.gradient2').on('click', function() {
+     $(".galleryWindow2").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".galleryWindow2").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".galleryWindow2").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
+
+
+// gallery window3
+$(document).ready(function(){
+  $('.gradient3').on('click', function() {
+     $(".galleryWindow3").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".galleryWindow3").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".galleryWindow3").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
+
+
+// gallery window4
+$(document).ready(function(){
+  $('.gradient4').on('click', function() {
+     $(".galleryWindow4").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".galleryWindow4").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".galleryWindow4").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
+
+
+// gallery window5
+$(document).ready(function(){
+  $('.gradient5').on('click', function() {
+     $(".galleryWindow5").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".galleryWindow5").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".galleryWindow5").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
+
+
+// gallery window6
+$(document).ready(function(){
+  $('.gradient6').on('click', function() {
+     $(".galleryWindow6").show().after('<div class="main-fade">');
+    return false;
+  })
+  $('.close').on('click', function() {
+    $(".galleryWindow6").hide(0);
+    $(".main-fade").remove();
+    return false;
+  })
+})
+
+$('body').on('click', '.close, .main-fade', function(){
+    $(".galleryWindow6").hide(0);
+    $(".main-fade").remove();
+    return false;
+  });
